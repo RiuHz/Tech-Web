@@ -1,0 +1,25 @@
+
+p {
+    color: purple !important;
+}
+
+p {
+    color: green;
+}
+
+div p {
+    color: blue;
+    color: black !important;
+}
+
+#container p {
+    color: red;
+}
+
+.contaier p {
+    color: orange;
+}
+
+[id] p {
+    color: yellow;
+}

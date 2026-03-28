@@ -1,0 +1,66 @@
+
+body {
+    max-width: 800px;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+        "header"
+        "navbar"
+        "main"
+        "footer";
+}
+
+header {
+    background-color: lightgray;
+    padding: 1em;
+    grid-area: header;
+}
+
+nav {
+    background-color: lightblue;
+    padding: 1em;
+    position: sticky;
+    top: 0;
+    grid-area: navbar;
+}
+
+nav div a:not(:first-of-type) {
+    padding-left: 1.5em;
+}
+
+main {
+    grid-area: main;
+}
+
+main .container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+        "section aside";
+    gap: 1em;
+}
+
+section {
+    grid-area: section;
+}
+
+aside {
+    grid-area: aside;
+}
+
+aside img {
+    margin-top: 1em;
+    width: 100%;
+}
+
+footer {
+    padding: 2em 1em;
+    background-color: darkblue;
+    color: white;
+    grid-area: footer;
+}
+
+footer a {
+    color: goldenrod;
+}

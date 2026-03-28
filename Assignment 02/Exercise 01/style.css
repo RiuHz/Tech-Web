@@ -1,0 +1,56 @@
+
+header {
+    background-color: blue;
+    color: white;
+}
+
+nav {
+    background-color: lightgray;
+
+}
+
+nav span:not(:first-child)::before {
+    content: " - ";
+}
+
+section span.master {
+    background-color: red;
+}
+
+section p span.master + em:first-of-type {
+    font-weight: bold;
+    color: red;
+}
+
+section p span.master ~ em:not(:first-of-type) {
+    background-color: green;
+    text-decoration: underline;
+}
+
+a[target="_blank"]::before {
+    content: "➡️";
+}
+
+a[href^="http"]::after {
+    content: "(ext.)";
+}
+
+ul li:nth-child(3n + 1) {
+    color: green;
+}
+
+ul li:nth-child(3n + 2) {
+    color: white;
+}
+
+ul li:nth-child(3n) {
+    color: red;
+}
+
+table tr:nth-child(odd) td:nth-child(odd) {
+    background-color: black !important;
+}
+
+table tr:nth-child(even) td:nth-child(even) {
+    background-color: black !important;
+}

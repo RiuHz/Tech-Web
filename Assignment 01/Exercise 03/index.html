@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+    <head lang="en">
+        <title>
+            Sign-Up Service
+        </title>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <header>
+            <h1>
+                Sign-Up Service
+            </h1>
+        </header>
+
+        <section>
+            <form>
+                <fieldset>
+                    <legend>Account</legend>
+
+                    <label for="first_name">First Name</label>
+                    <input type="text" name="first_name" id="first_name">
+                    <br/>
+
+                    <label for="last_name">Last Name</label>
+                    <input type="text" name="last_name" id="last_name">
+                    <br/>
+
+                    <label for="birth_date">Birth Date</label>
+                    <input type="date" name="birth_date" id="birth_date">
+                    <br/>
+
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Gender</legend>
+
+                    <input type="radio" name="gender" value="male" id="male">
+                    <label for="male">Male</label>
+                    <br/>
+
+                    <input type="radio" name="gender" value="female" id="female">
+                    <label for="female">Female</label>
+                    <br/>
+
+                    <input type="radio" name="gender" value="other" id="oder">
+                    <label for="other">Other</label>
+                    <br/>
+
+                    <input type="radio" name="do_not_declare" value="do_not_declare" id="do_not_declare">
+                    <label for="do_not_declare">Do Not Declare</label>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Preferences</legend>
+
+                    <label for="biography">Biography</label>
+                    <textarea rows="5" cols="20" name="biography" id="biography"></textarea>
+                    <br/>
+
+                    <label for="color">Favorite color</label>
+                    <input type="color" name="color" id="color">
+
+                </fieldset>
+
+                <input type="submit">
+
+            </form>
+        </section>
+    </body>
+</html>

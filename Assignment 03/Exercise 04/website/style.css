@@ -1,0 +1,34 @@
+
+body {
+    margin: 0;
+}
+
+header {
+    padding: 1em;
+    background-color: lightblue;
+}
+
+nav {
+    padding: 1em;
+    background-color: aliceblue;
+}
+
+main {
+    padding: 1em;
+}
+
+main section {
+    border: 1px solid black;
+    
+    padding: 0.5em;
+    margin: 0.5em;
+
+    overflow: auto;
+}
+
+main section img {
+    float: left;
+    width: 10em;
+
+    margin-right: 1em;
+}

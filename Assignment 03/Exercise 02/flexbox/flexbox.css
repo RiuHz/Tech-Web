@@ -1,0 +1,48 @@
+
+body {
+    max-width: 800px;
+}
+
+header {
+    background-color: lightgray;
+    padding: 1em;
+}
+
+nav {
+    background-color: lightblue;
+    padding: 1em;
+    position: sticky;
+    top: 0;
+}
+
+nav div a:not(:first-of-type) {
+    padding-left: 1.5em;
+}
+
+main .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+section {
+    width: 65%;
+}
+
+aside {
+    width: 30%;
+}
+
+aside img {
+    margin-top: 1em;
+    width: 100%;
+}
+
+footer {
+    padding: 2em 1em;
+    background-color: darkblue;
+    color: white;
+}
+
+footer a {
+    color: goldenrod;
+}

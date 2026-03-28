@@ -1,0 +1,44 @@
+
+body {
+    width: 800px;
+}
+
+header {
+    background-color: lightgray;
+    padding: 1em;
+}
+
+nav {
+    background-color: lightblue;
+    padding: 1em;
+}
+
+nav div a:not(:first-of-type) {
+    padding-left: 1.5em;
+}
+
+section {
+    display: inline-block;
+    width: 65%;
+}
+
+aside {
+    display: inline-block;
+    width: 30%;
+    margin: 0 2%;
+}
+
+aside img {
+    margin-top: 1em;
+    width: 100%;
+}
+
+footer {
+    padding: 2em 1em;
+    background-color: darkblue;
+    color: white;
+}
+
+footer a {
+    color: goldenrod;
+}
