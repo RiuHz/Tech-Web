@@ -33,7 +33,7 @@ main {
     grid-area: main;
 }
 
-main .container{
+main .container {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-areas:
